@@ -13,6 +13,9 @@
         <a :href="tutorialinfo.link">Vue Js Tutorial</a>
         <h2>Data Binding</h2>
         <p v-html="htmlcode"></p>
+        <h2>Current Time Is {{getCurrentTime()}}</h2>
+        <button v-on:click="Decrement()">Decrement</button><h2>Counter Value is {{count}}</h2><button v-on:click="Increment()">Increment</button>
+
     </div>
     <script src="app.js"></script>
 </body>
